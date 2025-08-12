@@ -19,7 +19,7 @@ ADMINS = [int(x) for x in os.environ.get("ADMINS", "").split()]  # Default to ow
 # Channel Configuration
 PREMIUM_CHANNEL = "https://t.me/+W-Q51EuLf2QwYTl"
 # Thumbnail Configuration
-THUMBNAILS = list(map(str, os.environ.get("THUMBNAILS", "").split()))
+THUMBNAILS = list(map(str, os.environ.get("THUMBNAILS", "https://ar-hosting.pages.dev/1751519809887.jpg").split()))
 
 # Web Server Configuration
 WEB_SERVER = os.environ.get("WEB_SERVER", "False").lower() == "true"
@@ -51,7 +51,7 @@ Please contact the admin to renew your subscription.</blockquote>""",
     "access_denied": """<b>⚠️ Access Denied!</b>
 
 <blockquote>You are not authorized to use this bot.
-Please contact the admin @ItsUGBot to get access.</blockquote>""",
+Please contact the admin @Contact_AdminSbot to get access.</blockquote>""",
 
     "not_admin": "⚠️ You are not authorized to use this command!",
     
@@ -59,6 +59,7 @@ Please contact the admin @ItsUGBot to get access.</blockquote>""",
 
 <blockquote>Use format: {format}</blockquote>"""
 }
+
 
 
 
